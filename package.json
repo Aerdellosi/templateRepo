@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode=development",
     "lint": "eslint src/*.js",
-    "test": "jest" ,
+    "test": "jest",
     "start": "npm run build && webpack-dev-server --open --mode=development"
   },
   "keywords": [],
@@ -16,11 +16,14 @@
     "webpack": "^5.75.0"
   },
   "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "bootstrap": "^5.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
     "eslint": "^8.34.0",
     "eslint-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^29.4.2",
     "style-loader": "^3.3.1",
