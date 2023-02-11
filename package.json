@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode=development",
     "lint": "eslint src/*.js",
-    "test": "jest" ,
+    "test": "jest",
     "start": "npm run build && webpack-dev-server --open --mode=development"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "bootstrap": "^5.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
     "eslint": "^8.34.0",
     "eslint-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
