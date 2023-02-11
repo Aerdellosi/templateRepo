@@ -16,6 +16,7 @@
     "webpack": "^5.75.0"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
     "eslint": "^8.34.0",
